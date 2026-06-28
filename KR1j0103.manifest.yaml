@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR1j0103/v1
+canonical_location: https://kanripo.org/bkk/KR1j0103/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 字指一卷
+  identifiers:
+    krp: KR1j0103
+  tags:
+    kr-categories: KR1j
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR1j0103.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR1j0103_001.yaml, hash: 'sha256:7485f4248f0201bab85fbd5dd19e68fef1d0cce5b3017eb8c158abe440004a01'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR1j0103_001.markers.yaml, hash: 'sha256:1655da35f12ad58548cbbb420092e9a8b9acc7474da709fcd2b519341b553ea6'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR1j0103_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 321
+  label: 字指
+  type: section
+  level: 1
+hash: sha256:20b7c5200f8d3b6ca730140088f0e6762257821d79efeef731df284ecef29af2
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
